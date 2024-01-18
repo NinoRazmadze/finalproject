@@ -1,0 +1,133 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 96px;
+}
+/* header */
+header {
+  background-color: #402101;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  padding-inline: 120px;
+  position: fixed;
+  width: inherit;
+  max-width: inherit;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.burger,
+.xmark,
+.header_logo2 {
+  color: white;
+  font-size: 32px;
+  display: none;
+}
+
+.header_ul {
+  display: flex;
+  column-gap: 60px;
+}
+.active,
+.noactive {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.active {
+  color: #d5906e;
+}
+.header_cart {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.header_cart_text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* section  */
+.section1{
+  background-image: url(../images/section1_cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section1_text{
+  color: #FFF;
+text-shadow: 4px 4px 2px #581504;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px; 
+margin-bottom: 48px;
+}
+.section1_button{
+  border-radius: 10px;
+border: 2px solid #B53B1B;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px #581504;
+width: 168px;
+height: 48px;
+color: #B53B1B;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+}
+/* section1_artwork */
+.section2_artwork{
+ background-image: url(../images/section2cover_artwork.png);
+
+}
+.section2_container{
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+
+}
+.section2_text{
+  text-shadow: 0px 4px 2px #000;
+  text-align: center;
+}
+.search{
+  display: flex;
+  border-radius: 10px;
+border: 2px solid #FFF;
+background: #F5F5F5;
+
+ }
+
+ .search_input{
+  border-radius: 10px;
+  border: 2px solid #FFF;
+background-color: #F5F5F5;
+padding: 16px 0 16px 16px;
+color:  rgba(213, 144, 110, 0.52);
+width: 100%;
+}
+.search_button{
+  border: none;
+border-radius: 0px 10px 10px 0px;
+background: #B53B1B;
+padding: 15px 53px;
+color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
