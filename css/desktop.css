@@ -3,12 +3,18 @@
   header {
     padding-inline: 32px;
   }
+  .art-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+
 @media (max-width: 900px) {
   .header_logo1 {
     display: none;
   }
-  .header_logo2, .burger {
+  .header_logo2,
+  .burger {
     display: block;
   }
   .header_nav {
@@ -19,10 +25,10 @@
     width: 50%;
     padding: 25px 0 25px 20px;
   }
-  .show{
+  .show {
     left: 0;
   }
-  .header_ul{
+  .header_ul {
     flex-direction: column;
     row-gap: 40px;
   }
